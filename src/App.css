@@ -53,7 +53,6 @@ li {
   line-height: 27px;
   align-items: center;
   padding-left: 7%;
-<<<<<<< HEAD
 }
 
 li:first-child {
@@ -82,35 +81,4 @@ hr {
   margin: 10% 0 10% 0;
   padding: 0;
   width: 203px;
-=======
 }
-
-li:first-child {
-  background-color: rgba(252, 128, 116, 0.2);
-  color: #fc8074;
-  border: 1px solid fc8074;
-  border-radius: 15px;
-}
-
-.nav-sing-out {
-  display: flex;
-  width: 175px;
-  height: 51px;
-  font-family: "Avenir Roman";
-  font-size: 20px;
-  line-height: 27px;
-  margin-left: 20%;
-  margin-bottom: 10%;
->>>>>>> 3cd67be41c13dc3876440712622fb84d57eba15b
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #84818e;
-  margin: 10% 0 10% 0;
-  padding: 0;
-  width: 203px;
-}
-
