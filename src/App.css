@@ -1,38 +1,84 @@
 .App {
-  text-align: center;
+  margin-top: 3%;
+  width: 120vw;
+  height: 100vh;
+  border: 1px solid #fff;
+  border-radius: 48px;
+  background-color: #1f1b33;
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 30%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 83px;
+  height: 38px;
+  font-family: "Avenir Black";
+  line-height: 38px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ul {
+  margin-left: 0;
+  padding-inline-start: 15px;
+}
+
+li {
+  display: flex;
+  width: 175px;
+  height: 51px;
+  font-family: "Avenir Roman";
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  padding-left: 7%;
+}
+
+li:first-child {
+  background-color: rgba(252, 128, 116, 0.2);
+  color: #fc8074;
+  border: 1px solid fc8074;
+  border-radius: 15px;
+}
+
+.nav-sing-out {
+  display: flex;
+  width: 175px;
+  height: 51px;
+  font-family: "Avenir Roman";
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #84818e;
+  margin: 10% 0 10% 0;
+  padding: 0;
+  width: 203px;
 }
